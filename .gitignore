@@ -1,0 +1,16 @@
+# Dependências e builds
+node_modules/
+dist/
+build/
+.vite/
+
+# Variáveis de ambiente e segredos (nunca versionar chaves/tokens)
+.env
+.env.local
+.env.*.local
+
+# Logs e arquivos temporários
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
